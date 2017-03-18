@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skysl</title>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d4cd3d7191.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        background-image: url('bg.png');
+        background-size: auto 120vh;
+        font-family: "Interstate", "Open Sans", sans-serif;
+        z-index: 0;
+        color: white;
+      }
+      div.header {
+        padding: 30px;
+      }
+      div.header img {
+        border-radius: 10px;
+        height: 200px;
+      }
+      div.wrapper {
+        z-index: 1;
+        max-width: 1200px;
+        background: rgba(0, 0, 0, 0.6);
+        margin: auto;
+      }
+      @media screen and (max-width: 800px) {
+        div.header img.logo {
+          margin: auto;
+          display: block;
+        }
+        div.header img.text {
+          display: none;
+        }
+        div.members a {
+          font-size: 20px!important;
+        }
+      }
+      div.members {
+        padding-top: 30px;
+      }
+      div.members a {
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 10px;
+      }
+      div.members a img {
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 6px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      div.embed {
+        padding: 50px;
+        margin: auto;
+        width: 70%;
+      }
+      div.footer {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        padding: 30px;
+      }
+      div.footer div {
+        margin: 5px 0px;
+      }
+      div.footer i {
+        margin: 0px 5px;
+      }
+    </style>
+  </head>
+  <body><div class="wrapper">
+
+    <div class="header">
+      <img class="logo" src="https://raw.githubusercontent.com/skysl/assets/master/Profile03.png" alt="SKYSL">
+      <img class="text" src="text.png">
+    </div>
+
+    <div class="body">
+
+      <div class="embed">
+        <iframe width="100%" height="650" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/308486390&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+
+      <div class="members">
+        <a href="https://soundcloud.com/hum4n01dmusic"><img src="m01.jpg">Hum4n01d</a>
+        <a href="https://soundcloud.com/toxiccaves64"><img src="m02.jpg">ToxicCaves64</a>
+        <a href="https://soundcloud.com/arimyth"><img src="m03.png">Arimyth</a>
+        <a href="https://soundcloud.com/stereofield2015"><img src="m04.png">stereofield</a>
+      </div>
+
+      <div class="footer">
+        <div>
+          <a href="https://goo.gl/UpxPKk"><i class="fa fa-youtube-play fa-2x"></i></a>
+          <a href="https://goo.gl/GbPcli"><i class="fa fa-soundcloud fa-2x"></i></a>
+        </div>
+        <div>Copyright © 2015-2017 Skysl.</div>
+      </div>
+
+    </div>
+
+  </div></body>
+</html>
